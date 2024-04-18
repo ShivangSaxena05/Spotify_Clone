@@ -1,0 +1,119 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="assets/spotifyicon.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/utility.css" />
+    <link rel="stylesheet" href="mediaqueries/mq1.css" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left gap m-1 flex">
+        <div class="upper inner highlight">
+          <div class="cross">
+            <img class="invert" src="assets/close.svg" alt="" />
+          </div>
+          <div class="spotify"><img class="spotify" src="assets/icon.svg" alt="spotify" /></div>
+          <ul class="icon-list gap">
+            <li class="gap"><img src="assets/home.svg" alt="home" />HOME</li>
+            <li class="gap opacity">
+              <img src="assets/SEARCH.SVG" alt="search" />SEARCH
+            </li>
+          </ul>
+        </div>
+        <div class="lower inner highlight">
+          <div class="library opacity gap flex">
+            <img
+              src="assets/book.svg"
+              width="20px"
+              height="20px"
+              alt="library"
+            />
+            <h4>Your Library</h4>
+            <img
+              class="plus opacity"
+              src="assets/plus.svg"
+              width="20px"
+              height="20px"
+            />
+          </div>
+          <div class="list">
+            <ul>
+              
+            </ul>
+          </div>
+          <div class="footer">
+            <a href="###">Legal</a>
+            <a href="###">Safety & Privacy Center</a>
+            <a href="###">Privacy Policy</a>
+            <a href="###">Accessibility</a>
+            <a href="###">Cookies</a>
+          </div>
+        </div>
+      </div>
+      <div class="right border highlight m-1">
+        <div class="header">
+          <div class="leftright">
+            <div class="hamburger">
+              <img class="invert" src="assets/hamburger.svg" alt="" />
+            </div>
+            <button class="less">
+              <img
+                src="assets/lesserthan.svg"
+                alt="lesserthan"
+                class="lesserthan radius width"
+              /></button
+            ><button class="great">
+              <img
+                src="assets/greaterthan.svg"
+                alt="greaterthan"
+                class="greaterthan radius width"
+              />
+            </button>
+          </div>
+          <div class="buttons">
+            <button class="signup">Sign up</button>
+            <button class="login">Log in</button>
+          </div>
+        </div>
+        <div class="spotify-playlist">
+          <h2>Spotify Playlist</h2>
+          <div class="card-container">
+            
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="upper_p1">
+            <div class="songinfo"></div>
+            <div class="playbuttons">
+              <img
+                width="30"
+                class="invert"
+                id="prev"
+                src="assets/previous.svg"
+                alt=""
+              /><img width="30" id="play" src="assets/play2.svg" alt="" /><img
+                width="30"
+                class="invert"
+                id="next"
+                src="assets/next.svg"
+                alt=""
+              />
+            </div>
+            <div class="timevol">
+            <div class="songtime">00:00/00:00</div>
+            <div class="volume">
+              <img class="volimg" src="assets/volume.svg" />
+              <div class="range"><input type="range" name="volume" /></div>
+            </div></div>
+          </div>
+          <div class="slidebar"><div class="circle"></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+@media screen and (max-width:1390px) {
+    
+    .left{
+        position: absolute;
+        margin: 0;
+        gap: 5px;
+        height: 100vh;
+        left: -110%;
+        width: 340px;
+        transition: all 0.3s;
+        z-index: 1;
+    }
+    .list{
+        height: 65vh;
+    }
+    .right{
+        margin: 0;
+        width: 100vw;
+    }
+    .hamburger{
+        display: block;
+    }
+    .cross{
+        position: absolute;
+        right: 20px;
+        display: block;
+    }
+    .playbar{
+        margin: 0 5px;
+        bottom: 8px;
+        width: calc(100vw - 40px);
+    }
+    .slidebar{
+        width: 90%;
+    }
+    .lower{
+        height: 100vh;
+    }
+    .card-container{
+        justify-content: center;
+        gap: 50px;
+    }
+    .card{
+        width: 43%;
+    }
+    .spotify-playlist h2{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .upper_p1{
+        align-items: center;
+        flex-direction: column;
+    }
+    .songinfo{
+        text-align: center;
+        width: auto;
+        height: 40px;
+        margin: 10px 0;;
+    }
+    .playbar{
+        align-items: center;
+        height: 145px;
+        margin: 0 5px;
+        bottom: 8px;
+        width: calc(100vw - 20px);
+    }
+    .list ul li{
+        overflow: hidden;
+        font-size: 10px;
+    }
+    .list .song-details{
+        width: 100px;
+    }
+    .left{
+        width: 300px;
+    }
+    .card-container{
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .volume{
+        position: absolute;
+        right: 10px;
+    }
+}
